@@ -294,10 +294,8 @@ article.active {
 
 .content-card {
   position: relative;
-  background: var(--border-gradient-onyx);
   padding: 15px;
   padding-top: 45px;
-  border-radius: 14px;
   cursor: pointer;
   z-index: 1;
 }
@@ -306,8 +304,7 @@ article.active {
   content: "";
   position: absolute;
   inset: 1px;
-  background: var(--bg-gradient-jet);
-  border-radius: inherit;
+  background: var(--eerie-black-2);
   z-index: -1;
 }
 
